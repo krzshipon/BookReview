@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateBookActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp">
+    <TextView
+        android:id="@+id/tv_add_book_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Add book"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="35sp"/>
+
+    <EditText
+        android:id="@+id/tv_book_title"
+        android:layout_below="@id/tv_add_book_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:hint="Title"/>
+
+    <EditText
+        android:id="@+id/tv_book_author"
+        android:layout_below="@id/tv_book_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:hint="Author"/>
+
+    <EditText
+        android:id="@+id/tv_book_summary"
+        android:layout_below="@id/tv_book_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:hint="Summery"/>
+
+    <EditText
+        android:id="@+id/tv_book_url"
+        android:layout_below="@id/tv_book_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:hint="Url"/>
+
+    <Button
+        android:id="@+id/bt_add_book"
+        android:layout_below="@id/tv_book_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add book"
+        android:padding="15dp"/>
+    </RelativeLayout>
+
+</ScrollView>

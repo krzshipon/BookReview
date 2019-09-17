@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:gravity="center"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tv_signin_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="35sp"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_below="@id/tv_signin_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_below="@id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="15dp"
+        android:inputType="numberPassword"
+        android:hint="Pass"/>
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_below="@id/et_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_goto_signup"
+        android:layout_below="@id/bt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Not a member yet?! sign up here" />
+
+</RelativeLayout>

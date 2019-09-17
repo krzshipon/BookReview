@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BookDetailActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+         <ImageView
+             android:id="@+id/img_book"
+             android:layout_width="100dp"
+             android:layout_height="150dp"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:padding="20dp"
+             android:src="@mipmap/ic_launcher_book"
+             android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/book_title_da"
+            android:layout_width="match_parent"
+            android:layout_below="@id/img_book"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:text="Musa Bibliography"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/book_author_da"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/book_title_da"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:text="Shipon"/>
+        <TextView
+            android:id="@+id/book_sum_da"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/book_author_da"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:text="uarfhap9up9er8ufp9reupo9arejfopsdfjgporejfgp0reojt0perfhjposdjgiofdefgjopergjprejpo9rjsporesjfrehjgosdfjgfshdgosegheors"/>
+
+        <ImageButton
+            android:id="@+id/button_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:padding="15dp"
+            android:src="@drawable/ic_file_download_black_24dp"
+            android:forceHasOverlappingRendering="true"
+            android:overScrollMode="always"/>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

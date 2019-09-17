@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "723331753433",
+    "firebase_url": "https://bookreview-2783f.firebaseio.com",
+    "project_id": "bookreview-2783f",
+    "storage_bucket": "bookreview-2783f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723331753433:android:2464a1bee24a382d7b65c8",
+        "android_client_info": {
+          "package_name": "com.cyclicsoft.bookreview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723331753433-oggl1a5j2oa2lc4hlgl1pafl5h9ovlpb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cyclicsoft.bookreview",
+            "certificate_hash": "4f8a2ae8f7707544ce20c16f74d0eea5124e09d4"
+          }
+        },
+        {
+          "client_id": "723331753433-ipn1qgudk3dlm8s1o4rv13qq7uk51e2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4nHGYC1XXIDhO85bw28WtuoYGJfmfpmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723331753433-ipn1qgudk3dlm8s1o4rv13qq7uk51e2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
