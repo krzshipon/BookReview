@@ -1,5 +1,4 @@
 package com.cyclicsoft.bookreview.adapter;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,7 +16,6 @@ public class CommentListAdapter extends RecyclerView.Adapter<CommentListAdapter.
     public interface OnItemClickListener {
         void onItemClick(Comment book);
     }
-
     private List<Comment> adminList;
     private OnItemClickListener listener;
 
@@ -60,8 +58,7 @@ public class CommentListAdapter extends RecyclerView.Adapter<CommentListAdapter.
 
         public void bind(final Comment book, final OnItemClickListener listener) {
             itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
+                @Override public void onClick(View v) {
                     listener.onItemClick(book);
                 }
             });
