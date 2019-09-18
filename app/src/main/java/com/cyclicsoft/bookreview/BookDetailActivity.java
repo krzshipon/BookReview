@@ -32,7 +32,7 @@ public class BookDetailActivity extends AppCompatActivity {
     private String id;
     TextView title, author, sum, ratings;
     private DatabaseReference mRef;
-    ArrayList<Comment> comments;
+    ArrayList<Comment> comments = new ArrayList<>();
     CommentListAdapter adapter;
     private RecyclerView rv;
     EditText com, rat;
